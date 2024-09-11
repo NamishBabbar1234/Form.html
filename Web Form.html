@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styleswebform.css">
+    <title>HTML Forms</title>
+</head>
+<body>
+
+    <h1>HTML Forms</h1>
+
+    <form   action="file:///C:/Users/Radhika/Documents/html-and-css-crash-course/img/ninja.png">
+        <label for="uesername">enter username:</label>
+        <input type="text"  id="username"   name="username" placeholder="username"  required>
+        <br><br>
+        <label for="email">enter email:</label>
+        <input type="email" id="email"  name="email"    placeholder="email" required>
+        <br><br>
+        <label for="password">password:</label>
+        <input type="password"  id="password"   name="password" placeholder="password"  required>
+
+        <p>select your age:</p>
+
+        <input type="radio" name="age"  value="0-25"    id="option-1"   required>
+        <label for="option-1">0-25</label><br>
+        <input type="radio" name="age"  value="26-50"    id="option-2"  required>
+        <label for="option2">26-50</label><br>
+        <input type="radio" name="age"  value="51+"    id="option-3"    required>
+        <label for="option-3">51+</label><br>
+
+        <br><br>
+
+            <label for="question">security question:</label>   
+        <select name="question" id="question">
+            <option value="q1">what colour are your favourite pair of socks?</option>
+            <option value="q2">if you could be a vegetable, what would it be?</option>
+            <option value="q3">what is your best ever security question?</option>
+    </select>
+
+        <br><br>
+
+    <label for="answer">security question answer:</label>
+        <input type="text"  id="answer" name="answer">
+
+        <br><br>
+
+    <label for="bio">your bio:</label><br>
+    <textarea name="bio" id="bio" cols="30" rows="10"   placeholder="aboutyou..."></textarea>
+
+        <br><br>
+
+    <input type="submit"    value="submit the form">
+
+
+    </form>
+
+    <P>This the web form created by me, Namish Babbar</P>
+    <b>I like these things :)</b>
+    <ul style="list-style-type-square-inside-url('sqpurple.gf');">
+    <li>
+        toys <br>
+    </li>
+    <li> chocolates <br>
+     </li>
+     <li>
+        etc.
+     </li>
+    </ul>
+</body>
+</html>
